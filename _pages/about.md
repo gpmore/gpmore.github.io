@@ -1,49 +1,82 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /index.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+As a cybersecurity graduate student at the University of Maryland, I am passionate about protecting organizations from evolving threats and vulnerabilities.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I have industry experience in web application security, penetration testing, vulnerability assessment, ethical hacking, and API security testing. In my most recent role as an associate information security consultant at qSEAp Infotech, I worked on critical banking applications, conducting web application security assessments and analysis in line with OWASP Top 10 standards, and managing change request approval processes. I performed API security assessments and thick-client pentesting. I am proficient in programming languages like Java, C, Bash/Shell Scripting, and SQL, and tools such as Burp Suite, Nessus, Postman, Kali Linux, Nmap, and Wireshark.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My goal is to continue making a positive impact in the field and further develop my cybersecurity skill set. I am enthusiastic about contributing my expertise to cybersecurity initiatives, and actively seeking opportunities that will allow me to apply my knowledge and skills in real-world scenarios.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+Skills
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- **Technical Skills**: Penetration Testing, Vulnerability Management, Security Assessments, Web Application Security 
+Testing, API Security Testing, Thick-client Security Testing, Network Penetration Testing, Vulnerability Assessment, 
+Cloud Security, Amazon Web Services (AWS), Azure, Operating Systems (Windows, Linux, MacOS), Threat 
+Intelligence, Threat Modelling, Digital Forensics, Incident Response, Network Forensics.
+- **Programming and Scripting**: Python, Java, C++, Bash/Shell Scripting, SQL.
+- **Pentesting Tools**: Burp Suite Pro, Nessus, Postman, Kali Linux, Nmap, Metasploit, SQLMap, ffuf, Dribuster.
+- **Digital Forensic Tools**: Autopsy, Wireshark, EnCase, Volatility, TCPDump.
 
-Create content & metadata
+Work Experience
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Qseap Infotech Pvt. Ltd.**
+*Associate Information Security Consultant* | Aug 2022 - Jul 2023
+- Conducted web application penetration tests using Burp Suite and API security assessments using Postman, identifying 
+vulnerabilities in line with OWASP Top 10 standards for a major banking institution, enhancing threat intelligence and 
+analysis capabilities.
+- Managed the Application Security (AppSec) team's Change Request (CR) approval process for over 200 CRs, ensuring 
+secure deployment and identifying potential threats, thus maintaining strong security standards on behalf of the 
+Application Security Team. 
+- Collaborated with the team to perform security audits, vulnerability scanning, and assessments using Nessus on over 25 
+network devices and 500 servers within the financial domain, strengthening vulnerability analysis and mitigation 
+strategies. 
 
-**Markdown generator**
+**Accenture**
+*Full stack Engineering Senior Analyst* | Jan 2021 - Jul 2022 
+- Developed automation scripts to increase team productivity by 20%, eliminating manual interventions in Oracle database 
+operations and improving processes within the AWS Cloud environment. 
+- Developed and implemented shell scripts that automated Oracle database and data migration between cloud servers, 
+eliminating manual tasks and achieving a 40% reduction in process time, resulting in increased operational efficiency and 
+reliability. 
+- Developed microservices for the Inventory Management System using Java Spring Boot and MySQL, enhancing system 
+scalability and performance. 
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Projects
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**Comprehensive Digital Forensic Investigation.** Conducted forensic analysis using Autopsy to extract and analyze malware 
+from a hard drive image, decoded embedded messages to uncover critical insights, and identified additional artifacts like 
+system logs and network traffic to understand malware behavior and objectives. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+**Cloud Security Assessment and Infrastructure Hardening for Healthcare Platform.** Assessed and remediated security 
+vulnerabilities in a healthcare company's AWS cloud infrastructure by securing IAM policies, implementing VPC network 
+segmentation, encrypting S3 storage, and utilizing RDS for database management, while designing a multi-tiered architecture 
+with Auto Scaling, multi-AZ deployments, and disaster recovery for scalability, high availability, and compliance. 
 
-For more info
+Certifications
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- [Web Application Penetration Tester eXtreme: INE Security](https://certs.ine.com/ea753f3e-84df-4754-906e-6462535628b2#gs.faw2ns)
+- [Certified AppSec Practitioner (CAP): The SecOps Group](https://drive.google.com/file/d/1DkgWyydn9nJkmV95fpyc9HymPv8c0I6k/view)
+- [SC-900: Microsoft Security, Compliance, Identity Fundamentals: Microsoft](https://www.credly.com/badges/670533be-f78e-44dc-9984-946b41b70398/public_url)
+- [AZ-900: Microsoft Azure Fundamentals: Microsoft](https://www.credly.com/badges/9b08d385-3fe1-4f1b-b1cd-154fa58b861d/public_url)
+- [AWS Certified Solutions Architect - Associate: Amazon Web Services (AWS)](https://www.credly.com/badges/e4c24e07-601c-45c1-825d-5f28e84c8f96)
+
+CTF
+------
+- THM
+- HTB
+- picoCTF 2022: Ranked #3942 out of 7800 participants in a series of CTF challenges including Binary Exploitation, 
+Cryptography, Forensics, Reverse Engineering, and Web Exploitation. 
+
+Volunteer Experience
+------
+**Volunteered at BSides NoVA 2024**: Assisted in organizing and managing event logistics, engaging with cybersecurity 
+professionals, and contributing to the success of a leading security conference. Networked with industry experts and 
+gained insights into the latest trends and developments in cybersecurity.
+
