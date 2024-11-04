@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Ganesh P. More"
-  pronouns         : # example: "she/her"  
+  pronouns         : "He/Him" # example: "He/Him"  
   bio              : "Cybersecurity Graduate Student"
-  location         : 🌎"Earth"
-  employer         : "University of Maryland - College Park"
+  location         : "College Park, MD"
+  employer         : "University of Maryland"
   uri              : # URL
   email            : "work.gpmore@gmail.com" 
 
@@ -73,6 +73,9 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+
+# CTF Platforms
+  # tryhackme        : ""
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
