@@ -16,6 +16,15 @@ main:
     
   # - title: "Portfolio"
   #  url: /portfolio/
+
+  - title: "Education"
+    url: /education/
+
+  - title: "Work Experience"
+    url: /work-experience/
+
+  - title: "Projects"
+    url: /projects/
         
   - title: "Blog Posts"
     url: /year-archive/
@@ -23,5 +32,5 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #  url: /markdown/
