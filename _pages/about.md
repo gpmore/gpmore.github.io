@@ -78,5 +78,3 @@ Volunteer Experience
 **Volunteered at BSides NoVA 2024**: Assisted in organizing and managing event logistics, engaging with cybersecurity 
 professionals, and contributing to the success of a leading security conference. Networked with industry experts and 
 gained insights into the latest trends and developments in cybersecurity.
-
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=424351" style='border:none;'></iframe>
